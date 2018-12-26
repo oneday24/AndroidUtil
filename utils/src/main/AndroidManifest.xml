@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+          package="com.common.utils"
+          xmlns:tools="http://schemas.android.com/tools">
+    <!-- uiautomator 只支持18以上的sdk -->
+    <uses-sdk tools:overrideLibrary="android.support.test.uiautomator.v18"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 外部存储 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- 联系人 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- 通话记录 -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <!-- 手机状态，SIM信息，imei -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+</manifest>
